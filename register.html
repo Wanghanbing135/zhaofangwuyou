@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆页面</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/register.css">
+</head>
+
+<body>
+
+    <header>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </header>
+    <nav>
+        <p>
+            <a href="">首页</a> >
+            <span><a href="">我的</a></span> >
+            <span><a href="">登录</a></span>
+        </p>
+    </nav>
+    <main>
+        <ul>
+            <li id="aa" class="noyiyang"><a href="javascript:;">普通登录</a></li>
+            <li id="bb"><a href="javascript:;">验证码快捷登录</a></li>
+        </ul>
+    </main>
+    <form action="">
+        <ul class="first">
+            <li><input class="phone" type="text" placeholder="请输入手机号码"></li>
+            <li><input class="psd" type="password" placeholder="请输入密码"></li>
+        </ul>
+        <ul class="second">
+            <li class="yanzheng">
+                <input class="phone" type="text" placeholder="请输入手机号码">
+                <a id="dianji" href="javascript:;">发送验证码</a>
+            </li>
+            <li><input type="text" placeholder="请输入短信中的验证码"></li>
+        </ul>
+        <input type="button" name="" id="input" value="立即登录">
+    </form>
+    <div class="wangji">
+        <p><a href="./logon.html">立即注册</a></p>
+        <p><a href="./password.html">忘记密码?</a></p>
+    </div>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/rem.js"></script>
+<script src="./js/touch.min.js"></script>
+
+
+
+<script>
+    $(function () {
+        $('#input').click(function () {
+            var phone = $('.phone').val();
+            var psd = $('.psd').val();
+
+            var reg = /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/;
+            var reg1 = /[A-Za-z]|[0-9]/;
+
+            if (phone == '') {
+                alert('手机号不能为空');
+            } else if (!reg.test(phone)) {
+                alert('请输入正确的手机号');
+            } else {
+                // return;
+            }
+
+            if (psd == '') {
+                alert('密码不能为空');
+            } else if (!reg1.test(psd)) {
+                alert('密码为6-10位字符');
+            } else {
+                // return
+            }
+        })
+        var fa = document.getElementById('dianji');
+        touch.on(fa, 'tap', function () {
+            var num = 60;
+            clearInterval(qingchu);
+            var qingchu = setInterval(function () {
+                fa.innerHTML = '(' + num + '秒)重发';
+                num--;
+                if (num <= 0) {
+                    mun = 60;
+                    clearInterval(qingchu);
+                    fa.innerHTML = '发送验证码';
+                }
+            }, 1000)
+        })
+
+        touch.on($('#bb'), 'tap', function () {
+            $('#bb').addClass('noyiyang').siblings().removeClass('noyiyang');
+            $('.second').css('display', 'block');
+            $('.first').css('display', 'none');
+            $('#input').val('验证并登录');
+        })
+
+
+        touch.on($('#aa'), 'tap', function () {
+            $('#aa').addClass('noyiyang').siblings().removeClass('noyiyang');
+            $('.first').css('display', 'block');
+            $('.second').css('display', 'none');
+            $('#input').val('立即登录');
+        })
+
+
+
+
+
+
+
+
+
+    })
+</script>
+
+</html>

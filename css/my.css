@@ -1,0 +1,112 @@
+nav{
+    width: 100%;
+    position: relative;
+}
+nav img{
+    width: 100%;
+}
+nav .img img{
+    width: 18%;
+    position: absolute;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav .logon{
+    width: 7rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    border: 1px solid white;
+    position: absolute;
+    bottom: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+nav .logon a{
+    color: white;
+}
+.my{
+    width: 3rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1rem;
+    right: 8rem;
+}
+.my span{
+    margin: 0 auto;
+    width: 2rem;
+}
+.down{
+    width: 3rem;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.4rem;
+    position: absolute;
+    top: 1rem;
+    right:2.5rem;
+}
+.down span{
+    margin: 0 auto;
+    width: 2rem;
+}
+main{
+    width: 100%;
+}
+main ul{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+main ul li{
+    width: 90%;
+    margin: 0 auto;
+    height: 5.7rem;
+    font-size: 1.4rem;
+    line-height: 5.7rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    text-indent: 2.7rem;
+}
+main ul li span{
+    width: 1.5rem;
+    height: 2rem;
+    background: url(../images/my/right.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+main ul li:nth-of-type(4){
+    border: none;
+}
+main ul li a{
+    color: #666666;
+}
+main ul li:nth-of-type(1){
+    background: url(../images/my/icon1.png) no-repeat 0 1.8rem ;
+    background-size: 2rem 2rem;
+}
+main ul li:nth-of-type(2){
+    background: url(../images/my/icon2.png) no-repeat 0 1.8rem ;
+    background-size: 2rem 2rem;
+}
+main ul li:nth-of-type(3){
+    background: url(../images/my/icon3.png) no-repeat 0 1.8rem ;
+    background-size: 2rem 2rem;
+}
+main ul li:nth-of-type(4){
+    background: url(../images/my/icon4.png) no-repeat 0 1.8rem ;
+    background-size: 2rem 2rem;
+}

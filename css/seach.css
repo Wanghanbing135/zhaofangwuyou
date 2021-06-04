@@ -1,0 +1,333 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    position: relative;
+}
+
+.nav input {
+    width: 90%;
+    height: 4rem;
+    text-indent: 1.5rem;
+    margin: 1rem 2rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 1px solid #cccccc;
+}
+
+.nav span {
+    position: absolute;
+    top: 1.8rem;
+    right: 7.2rem;
+}
+
+.nav a img {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 2.8rem;
+}
+
+.nav1 {
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.nav1 .lianjie {
+    width: 85%;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1 .lianjie a {
+    position: relative;
+    color: #666666;
+}
+
+.nav1 .lianjie a span {
+    border-top: .5rem solid #ccc;
+    border-right: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    position: absolute;
+    top: .6rem;
+    right: -1.7rem;
+}
+
+.fangli {
+    width: 90%;
+    height: 13rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: .9rem 0;
+    border-bottom: 1px solid #FF8A00;
+}
+
+.fangli:nth-of-type(3) {
+    border: none;
+}
+
+.fangli img {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fangli .hotzi {
+    width: 68%;
+    margin-top: 1.3rem;
+}
+
+.fangli .hotzi p:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.fangli .hotzi p:nth-of-type(2) {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+
+.fangli .hotzi p:nth-of-type(3) {
+    font-size: 1.6rem;
+    color: #b0b0b0;
+    margin-top: .5rem;
+}
+
+.fangli .hotzi p:nth-of-type(3) span {
+    color: #FF8A00;
+}
+
+.fangli .hotzi p:nth-of-type(4) {
+    color: #b0b0b0;
+    margin-top: .5rem;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    background-color: #555555;
+    opacity: .5;
+    position: fixed;
+    top: 0;
+    display: none;
+}
+
+.chuxian {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.chuxian .top {
+    width: 85%;
+    font-size: 2.1rem;
+    font-weight: 600;
+    margin: 0 auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+}
+
+.chuxian .top a {
+    position: relative;
+    color: #666666;
+}
+
+.chuxian .top a span {
+    border-top: .5rem solid #ccc;
+    border-right: .5rem solid transparent;
+    border-bottom: .5rem solid transparent;
+    border-left: .5rem solid transparent;
+    position: absolute;
+    top: .6rem;
+    right: -1.7rem;
+}
+
+.chuxian .top .buyiyang span {
+    border-top: .5rem solid transparent;
+    border-right: .5rem solid transparent;
+    border-bottom: .5rem solid #FF8A00;
+    border-left: .5rem solid transparent;
+}
+
+.chuxian .top .buyiyang a {
+    color: #FF8A00;
+}
+
+.one {
+    width: 100%;
+    display: flex;
+    display: none;
+
+}
+
+.one .quyu {
+    flex: 1;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #F0F0F0;
+}
+
+.one .quyu h2 {
+    height: 5.5rem;
+    line-height: 5.5rem;
+}
+
+.one .quyu h2:nth-of-type(1) {
+    color: #FF8A00;
+    background-color: white;
+}
+
+.one .fujin {
+    flex: 3;
+    display: flex;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.fujin ul:nth-of-type(1) {
+    flex: 1;
+}
+.fujin ul li{
+    height: 5.5rem;
+    line-height: 5.5rem;
+}
+
+.fujin ul:nth-of-type(2) {
+    flex: 1;
+}
+#yellow{
+    color: #FF8A00;
+}
+
+.two{
+    width: 100%;
+    display: none;
+}
+.two ul{
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.two ul li{
+    padding: 1.3rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.two ul li a {
+    color: #666666;
+}
+.two ul li:nth-of-type(7) {
+    border: none;
+}
+
+.three{
+    width: 100%;
+    display: none;
+}
+.three ul{
+    width: 85%;
+    color: #666666;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+.three ul li{
+    position: relative;
+    padding: 1.3rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.three ul li:nth-of-type(6) {
+    border: none;
+}
+.three ul span{
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #ccc;
+    position: absolute;
+    top: 1.4rem;
+    right: 1rem;
+}
+.three ul li:nth-of-type(3) span{
+    border-color: #FF8A00;
+    background: url(../images/SecondHandList/ok.png) no-repeat;
+    background-size: contain;
+}
+.three ul .que a{
+    display: block;
+    width: 100%;
+    height: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 5rem;
+    color: white;
+    background-color: #FF8A00;
+}
+
+.four{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.four .gengduo{
+    width: 85%;
+    margin: 0 auto;
+}
+.four .gengduo h3{
+    font-size: 1.6rem;
+    padding: 1.2rem 0;
+}
+.four .gengduo1 {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+.four .gengduo1 li{
+    width: 23%;
+    height: 2.8rem;
+    text-align: center;
+    line-height: 2.8rem;
+    border: 1px solid #ccc;
+    margin-bottom: 1.5rem;
+}
+.four p{
+    width: 85%;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+.four p a{
+    color: #666666;
+}
+.four .queding11 a {
+    color: white;
+}
+.four .queding11{
+    background-color: #FF8A00;
+    margin-bottom: 1.5rem;
+}

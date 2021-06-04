@@ -1,0 +1,194 @@
+nav{
+    width: 100%;
+    background-color: white;
+}
+nav p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.3rem 0;
+}
+nav p span{
+    font-weight: 400;
+}
+
+.section{
+    width: 100%;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+
+.banner img{
+    width: 100%;
+}
+.banner .fenxiang{
+    width: 7rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 1rem 0 0 1rem;
+    position: absolute;
+    bottom: 1.5rem;
+    right: 0;
+}
+
+.guanzhu{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+}
+.guanzhu h1{
+    flex: 3.5;
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding-top: 1.5rem;
+    border-right: 1px solid #ccc;
+}
+.guanzhu a{
+    flex: 1;
+    font-size: 1.6rem;
+    color: #666666;
+    text-align: center;
+}
+.guanzhu a span{
+    display: block;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 2rem 0 0 2.7rem;
+    background: url(../images/rentalList/xin.png) no-repeat;
+    background-size: contain;    
+}
+.zujin ul{
+    width: 100%;
+    display: flex;
+    padding: 3rem 0;
+}
+.zujin ul li{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.4rem;
+    border-right: 1px solid #ccc;
+}
+.zujin ul li:nth-of-type(3){
+    border: none;
+}
+.zujin ul li span{
+    color: #FF8A00;
+    margin-top: .3rem;
+}
+.louceng{
+    width: 100%;
+    background-color: white;
+}
+.louveng1{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+.louceng ul{
+    flex: 1;
+    font-size: 1.4rem;
+}
+.louceng ul li{
+    padding: 2rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.louceng ul li:nth-of-type(3){
+    border: none;
+}
+.main{
+    width: 100%;
+}
+.fangping{
+    width: 90%;
+    margin: 1.5rem auto;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.fangping h1{
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    color: #FF8A00;
+    border-bottom: 1px solid #ccc;
+    background: url(../images/rentalList/right.png) no-repeat 31rem 1.7rem;
+    background-size: 1rem 2rem;
+}
+.fangping p{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    padding: 1rem;
+}
+.fangping .map{
+    width: 90%;
+    margin: 1rem auto;
+    border: 1px solid #ccc;
+}
+.fangping .map h3{
+    font-size: 1.6rem;
+    padding: .5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+.fangping .map img{
+    width: 100%;
+}
+.fangping p span{
+    color: #de6843;
+}
+.name{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.name .man{
+    display: flex;
+    padding: .9rem;
+    flex: 3;
+}
+.name .man img{
+    width: 4.5rem;
+    height: 4.5rem;
+}
+.name .man p{
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+.phone{
+    display: flex;
+    flex: 2;
+}
+.phone a{
+    flex: 1;
+    font-size: 1.6rem;
+    color: #5dcb96;
+}
+.phone a span{
+    display: block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: url(../images/rentalList/icon1.png) no-repeat;
+    background-size: contain;    
+}
+.phone a:nth-of-type(2) {
+    color: #5baede;
+}
+.phone a:nth-of-type(2) span{
+    background: url(../images/rentalList/icon2.png) no-repeat;
+    background-size: contain;    
+}
+
+
+
+

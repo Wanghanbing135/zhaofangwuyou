@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册</title>
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/password.css">
+</head>
+<body>
+    <header>
+        <a href=""></a>
+        <a href=""></a>
+        <a href=""></a>
+    </header>
+    <nav>
+        <p>
+            <a href="">首页</a> > 
+            <span><a href="">我的</a></span> >
+            <span><a href="">注册</a></span>
+        </p>
+    </nav>
+    <form action="">
+        <ul>
+            <li class="yanzheng">
+                <input class="phone" type="text" placeholder="请输入手机号码">
+                <a id="dianji" href="javascript:;">发送验证码</a>
+            </li>
+            <li><input type="text" placeholder="请输入短信中的验证码"></li>
+            <li><input class="psd" type="password" placeholder="请输入密码"></li>
+        </ul>
+        <input type="button" name="" id="input" value="立即注册">
+    </form>
+</body>
+<script src="./js/jquery-1.11.1.min.js"></script>
+<script src="./js/rem.js"></script>
+<script src="./js/touch.min.js"></script>
+<script>
+    $(function () {
+        $('#input').click(function () {
+            var phone = $('.phone').val();
+            var psd = $('.psd').val();
+            var psd1 = $('.psd1').val();
+
+            var reg = /^(0|86|17951)?(13[0-9]|15[012356789]|166|17[3678]|18[0-9]|14[57])[0-9]{8}$/;
+            var reg1 = /[A-Za-z]|[0-9]/;
+
+            if (phone == '') {
+                alert('手机号不能为空');
+            } else if (!reg.test(phone)) {
+                alert('请输入正确的手机号');
+            } else {
+                // return;
+            }
+
+            if (psd == '') {
+                alert('密码不能为空');
+            } else if (!reg1.test(psd)) {
+                alert('密码为6-10位字符');
+            } else {
+                // return
+            }
+
+            
+        })
+        var fa = document.getElementById('dianji');
+        touch.on(fa, 'tap', function () {
+            var num = 60;
+            clearInterval(qingchu);
+            var qingchu = setInterval(function () {
+                fa.innerHTML = '(' + num + '秒)重发';
+                num--;
+                if (num <= 0) {
+                    mun = 60;
+                    clearInterval(qingchu);
+                    fa.innerHTML = '发送验证码';
+                }
+            }, 1000)
+        })
+    })
+</script>
+
+</html>

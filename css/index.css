@@ -1,0 +1,222 @@
+.tu {
+    width: 100%;
+    position: relative;
+}
+
+.tu img {
+    width: 100%;
+}
+
+.tu input {
+    width: 80%;
+    height: 3rem;
+    text-indent: 3rem;
+    background: url(../images/index/seach.jpg) no-repeat;
+    background-color: white;
+    background-size: contain;
+    outline: none;
+    position: absolute;
+    left: 50%;
+    bottom: 2rem;
+    transform: translateX(-50%);
+    border-radius: .5rem;
+}
+
+.main {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #FF8A00;
+}
+
+.main a img {
+    flex: 1;
+    width: 7.5rem;
+    margin-top: 2.5rem;
+}
+
+.main a p {
+    margin-top: .5rem;
+    color: white;
+}
+
+.tu1 {
+    width: 100%;
+}
+
+.tu1 img {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.remen {
+    width: 100%;
+    height: 8rem;
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: #FF8A00;
+}
+
+.remen1 {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.remen h1 {
+    font-size: 2.5rem;
+    margin-top: 1.3rem;
+}
+
+.remen p {
+    font-size: 1.6rem;
+}
+
+.fangyuan{
+    background-color: white;
+}
+.fangli {
+    width: 90%;
+    height: 13rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem 0;
+    border-bottom: 1px solid red;
+}
+
+.fangli:nth-of-type(3) {
+    border: none;
+}
+
+.fangli img {
+    width: 9.3rem;
+    height: 9.3rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fangli .hotzi {
+    width: 68%;
+}
+
+.fangli .hotzi p:nth-of-type(1) {
+    font-size: 2.3rem;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fangli .hotzi p:nth-of-type(2) {
+    font-size: 1.6rem;
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fangli .hotzi p:nth-of-type(2) span {
+    color: #FF8A00;
+}
+
+.fangli .hotzi p:nth-of-type(3) {
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fangli .hotzi p:nth-of-type(4) {
+    display: flex;
+
+}
+
+.fangli .hotzi p:nth-of-type(4) span {
+    padding: .5rem;
+    margin-left: .6rem;
+    color: #849aae;
+    margin-top: .7rem;
+    background-color: #F4F7F9;
+}
+.main2{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: white;
+}
+.main2 .guanzhu{
+    display: flex;
+}
+.main2 .guanzhu li{
+    width: 50%;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #FF8A00;
+}
+.main2 .guanzhu li a{
+    color: #666666;
+}
+.main2 .guanzhu .aaa{
+    border-bottom: 2px solid #FF8A00;
+}
+.main2 .guanzhu .aaa a{
+    color: #FF8A00;
+}
+.ull{
+    width: 100%;
+    display: flex;
+}
+.ull .beijing{
+    width: 50%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 1.3rem 0;
+    text-indent: 2rem;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+}
+.footer .cha{
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+}
+.footer span img{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 1.2rem 0 0 2rem;
+}
+.footer p{
+    font-size: 2.2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+.footer p span{
+    font-size: 1.4rem;
+}
+.footer .downloade{
+    width: 36%;
+    height: 100%;
+    font-size: 2rem;
+    color: white;
+    line-height: 6rem;
+    text-align: center;
+    background-color: #FF8A00;
+}

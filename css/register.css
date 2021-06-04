@@ -1,0 +1,114 @@
+nav{
+    width: 100%;
+    background-color: white;
+}
+nav p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1.3rem 0;
+}
+nav p span{
+    font-weight: 400;
+}
+main{
+    width: 100%;
+}
+main ul{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border-top: 1px solid #ccc;
+}
+main li{
+    flex: 1;
+    text-align: center;
+    border-bottom: .4rem solid #ccc;
+}
+main li a{
+    display: block;
+    font-size: 1.4rem;
+    padding: 2rem 0;
+}
+.noyiyang{
+    border-color: #FF8A00;
+}
+form{
+    width: 100%;
+}
+form .first{
+    background-color: white;
+}
+form .first li{
+    width: 100%;
+    display: flex;
+    border-top: 2px solid #dcdcdc;
+
+}
+form .first li input{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+    border: none;
+    outline: none;
+}
+#input{
+    width: 90%;
+    height: 6rem;
+    margin: 2rem 2rem;
+    background-color: #FF8A00;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 6rem;
+}
+
+
+form .second{
+    background-color: white;
+    display: none;
+}
+form .second li{
+    width: 100%;
+    display: flex;
+    border-top: 2px solid #dcdcdc;
+
+}
+form .second li input{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 1.5rem 0;
+    border: none;
+    outline: none;
+}
+form .second .yanzheng{
+    position: relative;
+}
+form .second .yanzheng #dianji{
+    position: absolute;
+    font-size: 1.4rem;
+    right: 2rem;
+    top: .6rem;
+    color: #666666;
+    padding: .7rem 1rem;
+    border: 1px solid #dcdcdc;
+}
+
+.wangji{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.wangji p a{
+    color: #666666;
+}
+.wangji p:nth-of-type(1) a {
+    color: #FF8A00;
+}

@@ -1,0 +1,88 @@
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    position: relative;
+    background-color: #FF8A00;
+}
+
+header a:nth-of-type(1) {
+    width: 15rem;
+    height: 5rem;
+    background: url(../images/index/logo.jpg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    left: 2rem;
+    transform: translatey(-50%);
+}
+
+header a:nth-of-type(2) {
+    width: 4rem;
+    height: 4rem;
+    background: url(../images/index/my.jpg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 7rem;
+    transform: translatey(-50%);
+}
+
+header a:nth-of-type(3) {
+    width: 4rem;
+    height: 4rem;
+    background: url(../images/index/xiazai.jpg) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translatey(-50%);
+}
+footer{
+    width: 100%;
+    background-color: #2F3130;
+}
+footer .shouye{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #3e403f;
+}
+footer .shouye a {
+    color: #939494;
+}
+footer .kehuduan{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+footer .kehuduan li{
+    flex: 1;
+    display: flex;
+    padding: 2rem;
+    color: #939494;
+}
+footer .kehuduan li:nth-of-type(1) span{
+    width: 4em;
+    height: 4.5rem;
+    background: url(../images/index/apple.png) no-repeat;
+}
+footer .kehuduan li:nth-of-type(2) span{
+    width: 4em;
+    height: 4.5rem;
+    background: url(../images/index/android.png) no-repeat;
+}
+footer .ipc{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: #939494;
+    text-align: center;
+    padding-bottom: 2rem;
+}

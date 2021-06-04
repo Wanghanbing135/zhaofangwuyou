@@ -1,0 +1,409 @@
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-container {
+    position: relative;
+}
+
+.swiper-pagination {
+    width: 4.5rem;
+    height: 2.3rem;
+    font-size: 1.4rem;
+    color: white;
+    border-radius: 1.2rem;
+    line-height: 2.3rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 2rem;
+    left: 31.5rem;
+}
+
+.guanzhu {
+    width: 100%;
+    background-color: white;
+    padding: 2rem 0;
+}
+
+.guanzhu h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.guanzhu p:nth-of-type(1) {
+    width: 90%;
+    margin: 1rem auto;
+    font-size: 1.6rem;
+    background: url(../images/SecondHandList/phone.png) no-repeat right;
+    background-size: contain;
+}
+
+.guanzhu p span {
+    color: #db4c3f;
+}
+
+.guanzhu p:nth-of-type(2) {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    color: #b0b0b0;
+}
+
+.guanzhu p:nth-of-type(3) {
+    width: 90%;
+    margin: 1.5rem auto 0;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+.guanzhu p:nth-of-type(3) span {
+    padding: .7rem;
+    margin-right: 1rem;
+    color: #849aae;
+    background-color: #dee9f0;
+}
+
+.section1 {
+    width: 100%;
+    margin: 1.5rem 0;
+    background-color: white;
+}
+
+.louceng {
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.louceng ul {
+    flex: 1;
+    font-size: 1.4rem;
+}
+
+.louceng ul li {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.louceng1 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.louceng1 ul {
+    font-size: 1.4rem;
+}
+
+.louceng1 ul li {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.louceng1 ul li:nth-of-type(4) {
+    border: none;
+    text-align: center;
+}
+.louceng1 ul li:nth-of-type(4) a {
+    color: #999999;
+}
+
+.section2 {
+    width: 100%;
+    background-color: white;
+}
+
+.fangping {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.fangping h1 {
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    color: #FF8A00;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.fangping p:nth-of-type(1) {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.fangping p:nth-of-type(2) {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    padding: 1.6rem;
+    text-align: center;
+}
+
+.fangping p:nth-of-type(2) a{
+        color: #999999;
+}
+
+.section3 {
+    width: 100%;
+    background-color: white;
+}
+
+.huxing {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.huxing h1 {
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    color: #FF8A00;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.fangli {
+    height: 9.3rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ff8a00;
+}
+
+.fangli:nth-of-type(2) {
+    border: none;
+}
+
+.fangli img {
+    width: 9.3rem;
+    height: 9.3rem;
+}
+
+.fangli .hotzi {
+    width: 68%;
+    line-height: 2.8rem;
+}
+
+.fangli .hotzi p:nth-of-type(1) {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.fangli .hotzi p:nth-of-type(2) {
+    font-size: 1.4rem;
+}
+
+.fangli .hotzi p:nth-of-type(3) {
+    display: flex;
+}
+
+.fangli .hotzi p:nth-of-type(3) span {
+    padding: .5rem;
+    margin-right: .8rem;
+    color: #849aae;
+    background-color: #F4F7F9;
+}
+
+
+
+
+
+.section4 {
+    width: 100%;
+    background-color: white;
+}
+
+.school {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.school h1 {
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.school ul {
+    font-size: 1.4rem;
+}
+
+.school ul li {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.school ul li span{
+    color: #999999;
+}
+
+.school ul li:nth-of-type(6) {
+    border: none;
+    text-align: center;
+}
+.school ul li:nth-of-type(6) a {
+    color: #999999;
+}
+
+
+.section5 {
+    width: 100%;
+    background-color: white;
+}
+
+.add {
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+.add h1 {
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+.add img{
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.section6 {
+    width: 100%;
+    background-color: white;
+}
+
+.tuijian {
+    width: 90%;
+    margin: 1.5rem auto 0;
+}
+
+.tuijian h1 {
+    font-size: 2.2rem;
+    padding: 1.2rem 0;
+    text-indent: 2rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tuili {
+    height: 11rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 2rem 0 ;
+    padding-bottom: 7rem;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tuili:nth-of-type(4) {
+    border: none;
+}
+
+.tuili img {
+    width: 9.6rem;
+    height: 9.6rem;
+}
+
+.tuili .hotzi1 {
+    width: 68%;
+}
+
+.tuili .hotzi1 p:nth-of-type(1) {
+    font-size: 2.1rem;
+    font-weight: 600;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.tuili .hotzi1 p:nth-of-type(2) {
+    font-size: 1.4rem;
+    margin-top: .5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tuili .hotzi1 p:nth-of-type(2) span {
+    color: #FF8A00;
+    font-weight: 600;
+}
+
+.tuili .hotzi1 p:nth-of-type(3) {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    display: flex;
+    color: #8b8b8b;
+    justify-content: space-between;
+}
+
+.tuili .hotzi1 p:nth-of-type(4) {
+    display: flex;
+
+}
+
+.tuili .hotzi1 p:nth-of-type(4) span {
+    padding: .5rem;
+    font-size: 1.4rem;
+    color: #849aae;
+    margin-top: .7rem;
+    background-color: #F4F7F9;
+}
+
+.tuili .liyou{
+    width: 100%;
+    padding: .9rem;
+    font-size: 1.4rem;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 1.5rem;
+}
+
+.tuili .liyou span{
+    position: absolute;
+    top: -1.8rem;
+    width: 0;
+    height: 0;
+    border-top: 1rem solid transparent;
+    border-right: 1rem solid transparent;
+    border-bottom: 1rem solid #f2f2f2;
+    border-left: 1rem solid transparent;
+    margin-left: 0.04rem;
+}
+
+.footer{
+    width: 100%;
+}
+.footer .jingji{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+}
+.footer .jingji a{
+    width: 100%;
+    height: 5rem;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 5rem;
+}
+.footer .jingji .people{
+    color: white;
+    flex: 2;
+    background:#FF8A00 url(../images/SecondHandList/user.png) no-repeat 4rem 1rem;
+    background-size: 3rem 3rem;
+}
+.footer .jingji .xin{
+    flex: 1;
+    text-indent: 3rem;
+    background: url(../images/SecondHandList/xin.png) no-repeat 2rem 1.1rem ;
+    background-size: 3rem 3rem ;
+}
+
+
+
+
+
+
+
+
